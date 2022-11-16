@@ -1,0 +1,313 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Home{
+    height: 100vh;  /* vh=>viewport height */
+    background-image: url(imgs/drew-coffman-1872.jpg);
+    background-size: 100% 100%; /* tzhr kol el ab3ad or cover */
+    
+}
+
+.home-contant{
+
+text-align: center;
+padding-top: 200px;
+color: white;
+}
+
+.home-contant h1{
+    font-family: "Alegreya";
+    font-size: 76px;
+}
+.home-contant p{
+    font-size: 20px;
+    margin: 20px 0;
+    font-size: 25px;
+}
+.home-contant .btn{
+padding: 15px 15px;
+color: white;
+border-radius: 5%;
+border:none;
+font-size: 17px;
+}
+.home-contant .btn-brown{
+    background-color:#8e7754;
+    border: 1px solid #8e7754;
+    transition: 1s;
+}
+.home-contant .btn-brown:hover{
+    background-color: white;
+    color: #382e32;
+}
+.home-contant .btn-trans{
+    border: 1px solid white;
+    background-color: transparent;
+}
+/* about1 */
+.about1{
+    margin: 30px 20px;
+    
+}
+.about-img1 {
+    padding-left: 7%;
+    float: left;
+    width: 50%;  
+}
+.about-img1 img {
+    width: 100%;
+    height: 500px;
+}
+.about-contant1{
+    padding-right: 7%;
+    float: right;
+    width: 50%;  
+}
+.about-contant1 p{
+    padding-top: 15px;
+    color: #888;
+}
+.about-contant1 h2{
+    margin-top: 100px;
+    color: #303030;
+    font-size: 30px;
+    font-weight: 200;
+}
+.about-contant1{
+    width: 40%;
+}
+.about-contant1 p{
+    padding-top: 20px ;
+    color: #888;
+}
+.about-contant1 h2{
+    color: #303030;
+    font-size: 30px;
+    font-weight: 200;
+}
+.clr{
+    clear: both;
+}
+/* about2 */
+
+.about2{
+    margin: 30px 20px;
+    background-color: #F8F8F8;  
+}
+.about-img2 {
+    padding-right: 7%;
+    float: right;
+    width: 50%;  
+}
+.about-img2 img {
+    width: 100%;
+    height: 500px;
+}
+.about-contant2{
+    padding-left: 7%;
+    float: left;
+    width: 50%; 
+     
+}
+.about-contant2 p{
+    padding-top: 15px;
+    color: #888;
+}
+.about-contant2 h2{
+    margin-top: 100px;
+    color: #303030;
+    font-size: 30px;
+    font-weight: 200;
+}
+.about-contant2{
+    width: 40%;
+}
+.about-contant2 p{
+    padding-top: 20px ;
+    color: #888;
+}
+.about-contant2 h2{
+    color: #303030;
+    font-size: 30px;
+    font-weight: 200;
+}
+.clr{
+    clear: both;
+}
+/* baking */
+.baking-title{
+    text-align: center;
+    margin: 30px 20px;
+}
+.baking-title h3{
+    color: #303030;
+    font-family: "Alegreya";
+    font-size: 30px;
+
+}
+.baking-title p{
+    font-size: 17px;
+    color: #888;
+    padding-top: 20px;
+}
+.item{
+    float: left;
+    color: #9C9C9C;
+    width: 33.3%;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.item img{
+    width: 100%;
+}
+.item p{
+    padding-top: 15px;
+}
+.item h4{
+    padding-top: 15px;
+    color: #303030;;
+    font-size: 20px;
+}
+.clr{
+    clear: both;
+}
+
+/* Map */
+.map{
+margin: 30px 20px;
+background-color: #F8F8F8; 
+}
+.map .info{
+width: 50%;
+float: left;
+padding-left: 7%;
+}
+.map .info p{
+    padding: 20px 20px;
+    color: #888;
+}
+.map .info h2{
+    color: #303030;
+    font-size: 30px;
+    font-weight: 200;  
+}    
+.map .app-map {
+    width: 50%;
+    height: 600px;
+    float: left;
+    padding-right: 7%; 
+}
+.map .app-map iframe{
+    width: 100%;
+    height: 500px;
+    
+}
+.clr{
+    clear: both;
+} 
+/* footer */
+.footer{
+    background-color: #353330;
+    height: 150px;
+   position: relative;
+}
+
+.footer img{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+}
+
+.footer p{
+    
+    position: absolute;
+    top: 55%;
+    left: 41%;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav .logo{
+    width: 15%;
+    
+}
+.nav .logo img{
+    width: 100%;
+    margin: 10px 15px;
+}
+.nav-list{
+    
+    width: 600px;
+}
+.nav-list ul {
+    
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    /* padding-top: 10px; */
+    height: 100%;
+    align-items: center;
+}
+.nav-list li{
+    padding-top: 30px;
+}
+.nav-list ul .li-home {
+   
+    border-top: 3px solid #8e7754;
+}
+.nav-list a{
+
+text-decoration: none;
+font-size: 20px;
+font-weight: 900;
+color: white;
+}
+
+@media screen and (max-width:568px){
+   
+    .map .info{
+    text-align: center;
+    width: 100%
+    }
+    .map .app-map{
+        width: 100%;
+
+        padding: 5%;
+    }
+    .item{
+
+        width: 100%
+    }
+
+.about-contant1 , .about-contant2 , .about-img1 , .about-img2{
+
+    width: 100%;
+    text-align: center;
+    padding: 15px 15px;
+}
+.about-contant1 h2 , .about-contant1 h2{
+    margin-top: 20px;}  
+    
+   .footer p{
+   left: 30%;
+   } 
+   .footer img{
+    left: 42%;
+    } 
+    .nav .logo{
+        display: none;}
+
+        .home-contant{
+            padding-top: 100px;
+        }
+}
